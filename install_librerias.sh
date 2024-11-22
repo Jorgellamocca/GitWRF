@@ -14,7 +14,6 @@
 #  License: LGPL
 # Jorge LL <jhllamoccawrf@gmail.com>
 # Tested in Ubuntu 18.04 LTS
-# https://gist.github.com/jamal919/5498b868d34d5ec3920f306aaae7460a#file-install_wrf41-sh
 #https://github.com/Jorgellamocca/WRF.git
 ########################################################################################################
 
