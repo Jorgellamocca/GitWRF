@@ -37,14 +37,6 @@ mkdir Library
 
 ## Downloading Libraries
 cd Downloads
-#wget -c https://www.zlib.net/zlib-1.2.11.tar.gz
-#wget -c https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.10/hdf5-1.10.5/src/hdf5-1.10.5.tar.gz
-#wget -c https://www.unidata.ucar.edu/downloads/netcdf/ftp/netcdf-c-4.7.1.tar.gz
-#wget -c https://www.unidata.ucar.edu/downloads/netcdf/ftp/netcdf-fortran-4.5.1.tar.gz
-#wget -c http://www.mpich.org/static/downloads/3.3.1/mpich-3.3.1.tar.gz
-#wget -c https://download.sourceforge.net/libpng/libpng-1.6.37.tar.gz
-#wget -c https://www.ece.uvic.ca/~frodo/jasper/software/jasper-1.900.1.zip
-
 wget -c https://www2.mmm.ucar.edu/wrf/OnLineTutorial/compile_tutorial/tar_files/mpich-3.0.4.tar.gz
 wget -c https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.10/hdf5-1.10.5/src/hdf5-1.10.5.tar.gz
 wget -c https://www2.mmm.ucar.edu/wrf/OnLineTutorial/compile_tutorial/tar_files/netcdf-c-4.7.2.tar.gz
