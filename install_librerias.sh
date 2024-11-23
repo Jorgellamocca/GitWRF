@@ -124,6 +124,15 @@ autoreconf -i
 ./configure --prefix=$DIR 
 make
 make install
+
+cd jasper-1.900.1
+./configure --prefix=$DIR --enable-shared
+make
+make install
+make clean
+./configure --prefix=$DIR --enable-shared CFLAGS="-fPIC"
+make
+make install
 export JASPERLIB=$DIR/lib
 export JASPERINC=$DIR/include
 
