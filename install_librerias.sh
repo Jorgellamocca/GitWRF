@@ -130,12 +130,6 @@ make install
 export JASPERLIB=$DIR/lib
 export JASPERINC=$DIR/include
 
-
-## export PATH and LD_LIBRARY_PATH
-echo "export PATH=$DIR/bin:$PATH" >> ~/.bashrc
-echo "export LD_LIBRARY_PATH=$DIR/lib:$LD_LIBRARY_PATH" >> ~/.bashrc
-
-
 #####################################BASH Script Finished##############################
 echo "Congratulations! "
 echo "Thank you for using this script" 
