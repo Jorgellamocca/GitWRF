@@ -119,8 +119,6 @@ make install
 # JasPer
 cd $HOME/WRF/Downloads
 tar -xvzf jasper-1.900.1.tar.gz
-
-
 cd jasper-1.900.1
 ./configure --prefix=$DIR --enable-shared
 make
