@@ -28,36 +28,21 @@ export CXX=g++
 export FC=gfortran
 export F77=gfortran
 
-# libpng
-cd $HOME/WRF/Downloads
-export LDFLAGS=-L$DIR/lib
-export CPPFLAGS=-I$DIR/include
-tar -xvzf libpng-1.2.50.tar.gz
-cd libpng-1.2.50/
-./configure --prefix=$DIR
-make
-make install
 
-# JasPer
-#cd $HOME/WRF/Downloads
-#tar -xvzf jasper-1.900.1.tar.gz
-#cd jasper-1.900.1/
-#autoreconf -i
-#./configure --prefix=$DIR
-#make
-#make install
-#export JASPERLIB=$DIR/lib
-#export JASPERINC=$DIR/include
+
+
 
 #JasPer Option 2
-tar -xzf jasper-1.900.1.tar.gz
+
+##### instalar Jasper #####
 cd jasper-1.900.1
 
-./configure --prefix=$DIR --enable-shared
+./configure --prefix=/home/jbruno/WRF/Library --enable-shared
 make
 make install
 make clean
-./configure --prefix=$DIR --enable-shared CFLAGS="-fPIC"
+
+./configure --prefix=/home/jbruno/WRF/Library --enable-shared CFLAGS="-fPIC"
 make
 make install
 
