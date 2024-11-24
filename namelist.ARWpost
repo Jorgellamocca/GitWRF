@@ -8,7 +8,7 @@
 
 &io
  input_root_name = '/home/wrf/WRF/MODELO/WRF/run/wrfout_d01*'
- output_root_name = './wrf_Peru'
+ output_root_name = './wrf_Peru_D1'
  plot = 'all_list'
  fields = 'U10,V10,RAINC,RAINNC,U,V,W,OLR,Q2,rh,rh2,SWDOWN,T2,SST,TSK,TSLB,SMOIS'
  mercator_defs = .true.
