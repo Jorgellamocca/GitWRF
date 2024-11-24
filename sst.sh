@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Definir la fecha de descarga
-fecha_sst=20241023
+fecha_sst=20241123
 
 # Crear la carpeta con la fecha si no existe
 mkdir -p "$fecha_sst"
