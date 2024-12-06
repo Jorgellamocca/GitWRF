@@ -1,11 +1,7 @@
-Instalación y Configuración de WRF/WPS en Ubuntu bajo WSL
-rmarkdown
-Copiar código
+
 ---
 title: "Guía de Instalación de WRF/WPS en Ubuntu con WSL"
 author: "Automatización"
-date: "`r Sys.Date()`"
-output: html_document
 ---
 
 # **1. Preparar el Entorno**
