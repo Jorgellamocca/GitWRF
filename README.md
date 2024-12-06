@@ -5,7 +5,7 @@
 # **1. Preparar el Entorno**
 
 ## Instalar WSL y Ubuntu
-```bash
+
 wsl --install -d Ubuntu
 Reinicia el sistema si es necesario.
 
