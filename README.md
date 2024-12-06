@@ -9,7 +9,7 @@
 wsl --install -d Ubuntu
 Reinicia el sistema si es necesario.
 
-##Actualizar el sistema##
+## Actualizar el sistema
 bash
 Copiar código
 sudo apt update && sudo apt upgrade -y
@@ -18,7 +18,7 @@ bash
 Copiar código
 sudo apt install build-essential gcc gfortran libjpeg-dev zlib1g-dev m4 -y
 
-##2. Instalar Librerías Requeridas##
+## 2. Instalar Librerías Requeridas
 Instalar NetCDF
 bash
 Copiar código
@@ -36,7 +36,7 @@ bash
 Copiar código
 sudo apt install libhdf5-dev libcurl4-openssl-dev -y
 
-##3. Descargar WRF y WPS##
+## 3. Descargar WRF y WPS
 Descargar código fuente
 bash
 Copiar código
@@ -48,7 +48,7 @@ Copiar código
 tar -xvf v4.6.tar.gz
 tar -xvf WPS-v4.6.tar.gz
 
-##4. Configurar y Compilar WRF##
+## 4. Configurar y Compilar WRF
 Navegar al directorio WRF
 bash
 Copiar código
@@ -65,7 +65,7 @@ Copiar código
 ./compile em_real &> compile.log
 tail compile.log
 
-##5. Configurar y Compilar WPS##
+## 5. Configurar y Compilar WPS
 Navegar al directorio WPS
 bash
 Copiar código
@@ -81,7 +81,7 @@ bash
 Copiar código
 ./compile &> compile.log
 
-##6. Descargar Datos Geográficos##
+## 6. Descargar Datos Geográficos
 Descargar y descomprimir datos
 bash
 Copiar código
@@ -90,7 +90,7 @@ tar -xvf geog_complete.tar.gz -C WPS_GEOG
 Configurar entorno de datos en WPS
 Edita namelist.wps y ajusta geog_data_path para apuntar a WPS_GEOG.
 
-##7. Configuración Adicional##
+## 7. Configuración Adicional
 Establecer variables de entorno
 Edita ~/.bashrc y agrega:
 
@@ -105,7 +105,7 @@ bash
 Copiar código
 source ~/.bashrc
 
-##8. Probar la Instalación##
+## 8. Probar la Instalación
 Usa WPS para procesar datos de entrada.
 Ejecuta simulaciones con WRF.
 Soluciona problemas en caso de errores.
