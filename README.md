@@ -7,7 +7,9 @@
 ## Instalar WSL y Ubuntu
 
 wsl --install -d Ubuntu.
+
 Reinicia el sistema si es necesario.
+
 
 ## Actualizar el sistema
 
