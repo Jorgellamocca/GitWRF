@@ -14,10 +14,13 @@ Reinicia el sistema si es necesario.
 ## Actualizar el sistema
 
 Copiar código
-sudo apt update && sudo apt upgrade -y .
-Instalar dependencias básicas .
-bash.
-Copiar código.
+sudo apt update && sudo apt upgrade -y 
+
+Instalar dependencias básicas 
+
+
+Copiar código
+
 sudo apt install build-essential gcc gfortran libjpeg-dev zlib1g-dev m4 -y .
 
 ## 2. Instalar Librerías Requeridas
