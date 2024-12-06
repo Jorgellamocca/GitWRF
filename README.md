@@ -1,8 +1,6 @@
 
----
-title: "Guía de Instalación de WRF/WPS en Ubuntu con WSL"
-author: "Automatización"
----
+##"Guía de Instalación de WRF/WPS en Ubuntu con WSL"##
+
 
 # **1. Preparar el Entorno**
 
