@@ -5,7 +5,7 @@
  end_date = '2024-11-21_00:00:00', '2024-11-21_00:00:00', 
  interval_seconds = 10800,
  io_form_geogrid = 2,
- opt_output_from_geogrid_path = '/home/wrf/WRF/MODELO/WPS/',
+ opt_output_from_geogrid_path = '/home/wrf/WRF/MODELOS/WPS/',
  debug_level = 0,
 /
 
@@ -25,7 +25,7 @@
  truelat1  = -8.266,
  truelat2  = 0,
  geog_data_path = '/home/wrf/WRF/Downloads/wps_geog_files/WPS_GEOG',
- opt_geogrid_tbl_path = '/home/wrf/WRF/MODELO/WPS/geogrid',
+ opt_geogrid_tbl_path = '/home/wrf/WRF/MODELOS/WPS/geogrid',
 /
 
 &ungrib
@@ -36,8 +36,8 @@
 &metgrid
  fg_name = 'FILE',
  constants_name = 'SST:2024-11-21_00',
- opt_output_from_metgrid_path = '/home/wrf/WRF/MODELO/WPS/',
- opt_metgrid_tbl_path = '/home/wrf/WRF/MODELO/WPS/metgrid/',
+ opt_output_from_metgrid_path = '/home/wrf/WRF/MODELOS/WPS/',
+ opt_metgrid_tbl_path = '/home/wrf/WRF/MODELOS/WPS/metgrid/',
 /
 
 
